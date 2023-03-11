@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Hike More</title>
     <link rel="stylesheet" href="style.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 </head>
-<body>
+<body class="container-fild">
     <!-- header Start -->
     <header>
-        <div class="logo"></div>
-        <div class="row">
+        <div class="logo"><img src="mlogo.png" alt="logo"></div>
+        <div class="row container-fluid">
             <div class="col-md-6">
                 <div class="navbar">
                     <nav>
@@ -25,63 +23,84 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="loremtext">
-                    <div class="star"></div>
-                    <p class="lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Alias minima exercitationem iusto dolores suscipit aliquam sunt ad?</p>
+            </div>
+            <div class="col-md-6 searchbar">
+                <p class="searchbaricon"><svg xmlns="http://www.w3.org/2000/svg" style="margin-left: 5%;" width="21" height="21" fill="orangered"  class="bi bi-search" viewBox="0 0 16 16">
+                 <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+               </svg>
+               <input type="search" class="search" placeholder="Search"> 
+             </p>
+             </div>
+        </div>
+
+                
+
+            <div class="row container-fluid">
+                <div class="col-md-6 loremtext">
+                    <div class="orngbox">
+                    <div class="star">
+                        <img src="star2.png" alt="star" height="25%" width="25%" style="margin: 1%;">
+                    </div>
+                    <p class="lorem" style="padding: 5%; font-size: 140%;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Alias minima exercitationem iusto dolores suscipit aliquam suntdolor sit amet consectetur
+                         </p>
                     <h5 class="quote">-QUOTES-</h5>
                 </div>
-
-            </div>
-            <div class="col-md-6">
-                <div class="searchbar">
-                    <input type="search" class="search">
                 </div>
+            <div class="col-md-6 headerright">
+               
+               
                 <div class="logoimage">
-                    <img src="" alt="Hike More">
+                    <img src="header_logo.png" alt="Hike More" height="70%" width="70%">
                 </div>
-                <p class="lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Alias minima exercitationem iusto dolores suscipit aliquam sunt ad?</p>
+                <p class="lorem" style="margin-top: 5%; margin-left: 13%; margin-right: 13%;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Alias minima exercitationem iusto dolores suscipit aliquam
+                    dolor sit amet consectetur dolor sit amet</p>
                 <button class="learnmore">Learn More</button>
-            </div>
-        </div>
+                </div>
+            
+    </div>
+        
     </header>
     <!-- header End -->
     <!-- Section Start -->
     <section>
-        <div class="blackdiv"></div>
+        <div class="blackdiv">  </div>
         <div class="yellowdiv">
-            <p class="route">1000+ Route. 1 Million Hikers.</p>
-            <p class="route">Memorable Memories.</p>
-            <p class="lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Alias minima exercitationem iusto dolores suscipit aliquam sunt ad?</p>
+            
+            <h4 class="route">1000+ Route. 1 Million Hikers. <br> Memorable Memories.</h4>
+            
+            <p class="loremroute">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                  iusto dolores suscipit aliquam sunt ad?
+                 consectetur.
+            </p>
         </div>
     </section>
     <!-- Section End -->
     <!-- Footer Start -->
     <footer>
         <div class="level">Choose Your level</div>
-        <div class="row">
-        <div class="col-md-4">
+        <div class="row chooselvl">
+        <div class="col-md-4 threecol">
             <h3 class="beginner">Beginner</h3>
             <hr>
-            <p class="lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            <p class="lorem2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                 Alias minima exercitationem iusto dolores suscipit aliquam sunt ad?</p>
-            <button class="learnmore">learn More</button>
+            <button class="learnmore2">Learn More</button>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 threecol">
             <h3 class="beginner">Experienced</h3>
             <hr>
-            <p class="lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            <p class="lorem2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                 Alias minima exercitationem iusto dolores suscipit aliquam sunt ad?</p>
-            <button class="learnmore">learn More</button>
+            <button class="learnmore2">Learn More</button>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 threecol">
             <h3 class="beginner">Expert</h3>
             <hr>
-            <p class="lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            <p class="lorem2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                 Alias minima exercitationem iusto dolores suscipit aliquam sunt ad?</p>
-            <button class="learnmore">learn More</button>
+            <button class="learnmore2">Learn More</button>
         </div>
         </div>
     </footer>
