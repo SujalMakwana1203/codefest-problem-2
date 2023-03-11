@@ -33,29 +33,34 @@ li a:hover{
    padding: 5px;
    align-items: center;
    fill: orangered;
-   margin-left: 50%;
+   margin-left: 45%;
    margin-right: 10%;
    border-radius: 30px 30px;
-
+    position: relative;
 }
-@media (max-width: 1299px)
+/* @media (min-width: 768px)
 {
     .searchbaricon {
         background-color: white;
         padding: 5px;
         align-items: center;
         fill: orangered;
-        margin-left: 20%;
+        margin-left: 45%;
         margin-right: 10%;
         border-radius: 30px 30px;
     }
-}
+}    */
 input{
     border: 2px solid white;
     /* margin-left: 50%; */
-    
+    /* margin-top: -17%; */
+    position: absolute;
+    height: 80%;
+    width: 50%;
 }
-
+.beginner{
+    font-size: 200%;
+}
 ::placeholder{
 
     color: rgba(128, 128, 128, 0.712);
@@ -86,10 +91,20 @@ input{
 }
 .orngbox{
     background-color: #ff66006b;
-    height: 90%;
+    margin-top: 40%;
+    height: 40%;
     width: 70%;
     margin-left: 20%;
 }
+ /* @media(min-width : 768px){
+    .orngbox{
+        background-color: #ff66006b;
+        height: 100%;
+        width: 70%;
+        margin-left: 20%;
+    }
+        
+}  */
 .lorem{
     text-align: center;
     /* padding: 10%; */
@@ -105,7 +120,7 @@ input{
 }
 .yellowdiv{
     
-    padding: 15% 10% 5% 10%;
+    padding: 5% 10% 5% 10%;
     text-align: center;
     background-color: #ffaf3c;
     
@@ -124,6 +139,7 @@ input{
     /* margin-top: 5%;  */
     margin-left: 15%;
     margin-right: 15%;
+    font-family: Roboto Condensed,sans-serif;
     
     padding: 5%;
     padding-left: 17%;
@@ -152,6 +168,7 @@ input{
 }
 .beginner {
     padding: 5%;
+    font-family: Roboto Condensed,sans-serif;
 }
 .lorem2{
     padding: 5%;
@@ -176,6 +193,8 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 40%;
+    font-family: Roboto Condensed,sans-serif;
+
 }
 hr{
     width: 90%;
